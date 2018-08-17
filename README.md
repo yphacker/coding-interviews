@@ -1,8 +1,8 @@
 # coding-interviews
 [牛客网-剑指offer](https://www.nowcoder.com/ta/coding-interviews?page=1)
 新窗口打开:<a href="https://www.nowcoder.com/ta/coding-interviews?page=1" target="_blank">牛客网-剑指offer</a>
-
-
+[剑指offer（源码）](https://github.com/zhedahht/CodingInterviewChinese2)
+[英文版新增面试题（源码）](https://github.com/zhedahht/ChineseCodingInterviewAppendix)
 ## 数组
 二维数组中的查找
 
@@ -19,22 +19,22 @@
 旋转数组的最小数字
 
 ## 递归和循环
-斐波那契数列
-跳台阶
-变态跳台阶
-矩形覆盖
+斐波那契数列</br>
+跳台阶</br>
+变态跳台阶</br>
+矩形覆盖</br>
 
 ## 位运算
 二进制中1的个数
 
 ## 代码的完整性
-数值的整数次方
+数值的整数次方</br>
 调整数组顺序使奇数位于偶数前面
 
 ## 代码的鲁棒性
-链表中倒数第k个结点
-反转链表
-合并两个排序的链表
+链表中倒数第k个结点</br>
+反转链表</br>
+合并两个排序的链表</br>
 树的子结构
 
 ## 面试思路
