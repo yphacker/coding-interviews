@@ -1,8 +1,10 @@
 # coding-interviews
-[牛客网-剑指offer](https://www.nowcoder.com/ta/coding-interviews?page=1)
-新窗口打开:<a href="https://www.nowcoder.com/ta/coding-interviews?page=1" target="_blank">牛客网-剑指offer</a>
-[剑指offer（源码）](https://github.com/zhedahht/CodingInterviewChinese2)
+[牛客网-剑指offer](https://www.nowcoder.com/ta/coding-interviews?page=1)</br>
+新窗口打开:<a href="https://www.nowcoder.com/ta/coding-interviews?page=1" target="_blank">牛客网-剑指offer</a></br>
+[牛客网-剑指offer](https://www.nowcoder.com/ta/coding-interviews?page=1){:target="_blank"}
+[剑指offer（源码）](https://github.com/zhedahht/CodingInterviewChinese2)</br>
 [英文版新增面试题（源码）](https://github.com/zhedahht/ChineseCodingInterviewAppendix)
+
 ## 数组
 二维数组中的查找
 
