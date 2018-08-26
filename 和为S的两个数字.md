@@ -7,19 +7,18 @@
 class Solution {
 public:
     vector<int> FindNumbersWithSum(vector<int> a,int sum) {
-        vector<int> res;
-        int n = a.size();
-        int i = 0, j = n - 1;
-        while(i < j){
-            if(a[i] + a[j] == sum){
-                res.push_back(a[i]);
-                res.push_back(a[j]);
+        vector<int> ans;
+        int l = 0, r = a.size()-1;
+        while(l < r){
+            if(a[l]+a[r] == sum){
+                ans.push_back(a[l]);
+                ans.push_back(a[r]);
                 break;
             }
-            while(i < j && a[i] + a[j] > sum) --j;
-            while(i < j && a[i] + a[j] < sum) ++i;
+            while(l<r && a[l]+a[r]>sum) --r;
+            while(l<r && a[l]+a[r]<sum) ++l;
         }
-        return res;
+        return ans;
     }
 };
 ```
