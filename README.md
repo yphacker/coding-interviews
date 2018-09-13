@@ -3,6 +3,7 @@
 <a href="https://www.nowcoder.com/ta/coding-interviews?page=1" target="_blank">牛客网-剑指offer</a></br>
 [剑指offer（源码）](https://github.com/zhedahht/CodingInterviewChinese2)</br>
 [英文版新增面试题（源码）](https://github.com/zhedahht/ChineseCodingInterviewAppendix)
+[百度网盘（密码：noxk）](https://pan.baidu.com/s/1YnxdD_1K_KYiGjOonCHpMw)
 
 根据自己对题目的理解分类为：数组、字符串、链表、树、栈和队列、查找和排序、位运算、找规律、发散思维能力。
 
