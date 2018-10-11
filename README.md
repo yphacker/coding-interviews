@@ -1,3 +1,13 @@
+- [coding-interviews](#coding-interviews)
+    - [数组](#数组)
+    - [字符串](#字符串)
+    - [链表](#链表)
+    - [树](#树)
+    - [栈和队列](#栈和队列)
+    - [查找和排序](#查找和排序)
+    - [位运算](#位运算)
+    - [找规律](#找规律)
+    - [发散思维能力](#发散思维能力)
 # coding-interviews
 [牛客网-剑指offer](https://www.nowcoder.com/ta/coding-interviews?page=1)</br>
 <a href="https://www.nowcoder.com/ta/coding-interviews?page=1" target="_blank">牛客网-剑指offer</a></br>
@@ -7,7 +17,6 @@
 
 根据自己对题目的理解分类为：数组、字符串、链表、树、栈和队列、查找和排序、位运算、找规律、发散思维能力。
 
-[toc]
 ## 数组
 调整数组顺序使奇数位于偶数前面</br>
 连续子数组的最大和</br>
@@ -93,3 +102,6 @@
 ## 发散思维能力
 求1+2+3+...+n</br>
 不用加减乘除做加法
+
+
+
