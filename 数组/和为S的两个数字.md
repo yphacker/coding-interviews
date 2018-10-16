@@ -22,3 +22,26 @@ public:
     }
 };
 ```
+
+```python
+# coding=utf-8
+# author=yphacker
+
+class Solution:
+    def FindNumbersWithSum(self, array, tsum):
+        # write code here
+        ans = []
+        l = 0
+        r = len(array)-1
+        while l < r:
+            print l, r
+            if array[l]+array[r] == tsum:
+                ans.append(array[l])
+                ans.append(array[r])
+                break
+            while l < r and array[l]+array[r] > tsum:
+                r -= 1
+            while l < r and array[l]+array[r] < tsum:
+                l += 1
+        return ans
+```

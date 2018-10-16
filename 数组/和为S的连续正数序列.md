@@ -21,3 +21,31 @@ public:
     }
 };
 ```
+
+```python
+# coding=utf-8
+# author=yphacker
+
+class Solution:
+    def FindContinuousSequence(self, tsum):
+        # write code here
+        if tsum < 3:
+            return []
+        l = 1
+        r = 2
+        mid = (tsum + 1) >> 1
+        curSum = l + r
+        ans = []
+        while l < mid:
+            if curSum == tsum:
+                ans.append(range(l, r+1))
+                r += 1
+                curSum += r
+            elif curSum > tsum:
+                curSum -= l
+                l += 1
+            else:
+                r += 1
+                curSum += r
+        return ans
+```
