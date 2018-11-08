@@ -38,3 +38,33 @@ public:
     }
 };
 ```
+
+```python
+# coding=utf-8
+# author=yphacker
+
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+class Solution:
+    # 返回对应节点TreeNode
+    def KthNode(self, pRoot, k):
+        # write code here
+        if not pRoot or k == 0:
+            return None
+        ans = self.inorder(pRoot)
+        if k > len(ans):
+            return None
+        return ans[k - 1]
+
+    def inorder(self, root):
+        ans = []
+        if root.left:
+            ans.extend(self.inorder(root.left))
+        ans.append(root)
+        if root.right:
+            ans.extend(self.inorder(root.right))
+        return ans
+```
