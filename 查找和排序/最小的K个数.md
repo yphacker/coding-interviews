@@ -31,7 +31,43 @@ public:
     }
 };
 ```
+
+```python
+# coding=utf-8
+# author=yphacker
+
+class Solution:
+    def GetLeastNumbers_Solution(self, tinput, k):
+        # write code here
+        if len(tinput) < k:
+            return []
+        tinput = self.partition(tinput, 0, len(tinput) - 1)
+        return tinput[:k]
+
+    def partition(self, tinput, start, end):
+        if start >= end:
+            return tinput
+        tmp = tinput[start]
+        i, j = start, end
+        while i < j:
+            while i < j and tmp <= tinput[j]:
+                j -= 1
+            if i < j:
+                tinput[i] = tinput[j]
+                i += 1
+            while i < j and tmp > tinput[i]:
+                i += 1
+            if i < j:
+                tinput[j] = tinput[i]
+                j -= 1
+        tinput[i] = tmp
+        self.partition(tinput, start, i - 1)
+        self.partition(tinput, i + 1, end)
+        return tinput
+```
+
 ||基于Partition函数的思路|基于堆或者红黑树的思路|
+| --- | --- | --- |
 |时间复杂度|O(n)|O(n*logk)|
 |是否需要修改输入数组|是|否|
 |是否适用于海量数据|否|是|
